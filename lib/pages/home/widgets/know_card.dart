@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nubank/components/button.dart';
 import 'package:nubank/core/themes/colors.dart';
+import 'package:nubank/core/utils/extensions/context.dart';
 
 class KnowCard extends StatelessWidget {
   const KnowCard({super.key, required this.title, required this.description});
@@ -38,7 +39,14 @@ class KnowCard extends StatelessWidget {
           ),
           const SizedBox(height: 8),
           const Spacer(),
-          NuButton.primary(text: 'Conhecer', onPressed: () {}),
+          NuButton.primary(
+            text: context.l10n.knowButton,
+            onPressed: () {
+              ScaffoldMessenger.of(
+                context,
+              ).showSnackBar(SnackBar(content: Text('$title Button Pressed')));
+            },
+          ),
         ],
       ),
     );

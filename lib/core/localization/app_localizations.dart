@@ -289,6 +289,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'We explain what this Nubank document says.'**
   String get termsUseDescription;
+
+  /// No description provided for @knowButton.
+  ///
+  /// In en, this message translates to:
+  /// **'Know'**
+  String get knowButton;
 }
 
 class _AppLocalizationsDelegate

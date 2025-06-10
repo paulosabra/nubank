@@ -114,4 +114,7 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get termsUseDescription =>
       'We explain what this Nubank document says.';
+
+  @override
+  String get knowButton => 'Know';
 }
