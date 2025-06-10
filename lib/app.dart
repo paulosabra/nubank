@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:nubank/core/localization/app_localizations.dart';
+import 'package:nubank/core/themes/theme.dart';
 import 'package:nubank/core/utils/extensions/context.dart';
 import 'package:nubank/routing/router.dart';
 
@@ -13,6 +14,7 @@ class NuApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       localizationsDelegates: AppLocalizations.localizationsDelegates,
       supportedLocales: AppLocalizations.supportedLocales,
+      theme: AppTheme.lightTheme,
       routerConfig: router(),
     );
   }
