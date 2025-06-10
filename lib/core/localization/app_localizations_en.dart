@@ -10,4 +10,9 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get appName => 'Nubank';
+
+  @override
+  String greeting(String username) {
+    return 'Hi, $username';
+  }
 }

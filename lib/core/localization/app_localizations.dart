@@ -103,6 +103,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Nubank'**
   String get appName;
+
+  /// No description provided for @greeting.
+  ///
+  /// In en, this message translates to:
+  /// **'Hi, {username}'**
+  String greeting(String username);
 }
 
 class _AppLocalizationsDelegate

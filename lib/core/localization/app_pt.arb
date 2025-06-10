@@ -1,3 +1,11 @@
 {
-  "appName": "Nubank"
+  "appName": "Nubank",
+  "greeting": "Olá, {username}",
+  "@greeting": {
+    "placeholders": {
+      "username": {
+        "type": "String"
+      }
+    }
+  }
 }
