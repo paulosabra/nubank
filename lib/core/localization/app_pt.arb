@@ -8,5 +8,11 @@
       }
     }
   },
-  "accountBalance": "Saldo em conta"
+  "accountBalance": "Saldo em conta",
+  "pixArea": "Área Pix",
+  "pay": "Pagar",
+  "transfer": "Transferir",
+  "deposit": "Depositar",
+  "rechard": "Recarga",
+  "invest": "Investir"
 }

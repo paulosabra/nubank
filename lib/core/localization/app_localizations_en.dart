@@ -18,4 +18,22 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get accountBalance => 'Account balance';
+
+  @override
+  String get pixArea => 'Pix Area';
+
+  @override
+  String get pay => 'Pay';
+
+  @override
+  String get transfer => 'Transfer';
+
+  @override
+  String get deposit => 'Deposit';
+
+  @override
+  String get rechard => 'Recharge';
+
+  @override
+  String get invest => 'Invest';
 }

@@ -8,5 +8,11 @@
       }
     }
   },
-  "accountBalance": "Account balance"
+  "accountBalance": "Account balance",
+  "pixArea": "Pix Area",
+  "pay": "Pay",
+  "transfer": "Transfer",
+  "deposit": "Deposit",
+  "rechard": "Recharge",
+  "invest": "Invest"
 }

@@ -115,6 +115,42 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Account balance'**
   String get accountBalance;
+
+  /// No description provided for @pixArea.
+  ///
+  /// In en, this message translates to:
+  /// **'Pix Area'**
+  String get pixArea;
+
+  /// No description provided for @pay.
+  ///
+  /// In en, this message translates to:
+  /// **'Pay'**
+  String get pay;
+
+  /// No description provided for @transfer.
+  ///
+  /// In en, this message translates to:
+  /// **'Transfer'**
+  String get transfer;
+
+  /// No description provided for @deposit.
+  ///
+  /// In en, this message translates to:
+  /// **'Deposit'**
+  String get deposit;
+
+  /// No description provided for @rechard.
+  ///
+  /// In en, this message translates to:
+  /// **'Recharge'**
+  String get rechard;
+
+  /// No description provided for @invest.
+  ///
+  /// In en, this message translates to:
+  /// **'Invest'**
+  String get invest;
 }
 
 class _AppLocalizationsDelegate

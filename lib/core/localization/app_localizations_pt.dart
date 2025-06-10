@@ -18,4 +18,22 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get accountBalance => 'Saldo em conta';
+
+  @override
+  String get pixArea => 'Área Pix';
+
+  @override
+  String get pay => 'Pagar';
+
+  @override
+  String get transfer => 'Transferir';
+
+  @override
+  String get deposit => 'Depositar';
+
+  @override
+  String get rechard => 'Recarga';
+
+  @override
+  String get invest => 'Investir';
 }
