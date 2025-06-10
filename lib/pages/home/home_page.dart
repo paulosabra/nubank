@@ -144,6 +144,23 @@ class HomePage extends StatelessWidget {
                   ),
                 ],
               ),
+              NuCard(
+                data: context.l10n.paymentAssistantTitle,
+                children: [
+                  Text(
+                    context.l10n.paymentAssistantDescription,
+                    style: const TextStyle(
+                      fontSize: 16,
+                      fontWeight: FontWeight.w400,
+                    ),
+                  ),
+                  const SizedBox(height: 16),
+                  NuButton.primary(
+                    text: context.l10n.accessButton,
+                    onPressed: () {},
+                  ),
+                ],
+              ),
             ],
           ),
         ),

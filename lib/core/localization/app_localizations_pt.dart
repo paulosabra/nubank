@@ -59,4 +59,14 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get amountAvailable => 'Valor disponível de até';
+
+  @override
+  String get paymentAssistantTitle => 'Planeje suas contas';
+
+  @override
+  String get paymentAssistantDescription =>
+      'Acompanhe, pague e programe com a ajuda do assistente de pagamentos.';
+
+  @override
+  String get accessButton => 'Accessar';
 }

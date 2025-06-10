@@ -193,6 +193,24 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Amount available up to'**
   String get amountAvailable;
+
+  /// No description provided for @paymentAssistantTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Plan your bills'**
+  String get paymentAssistantTitle;
+
+  /// No description provided for @paymentAssistantDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Track, pay and schedule with the help of the payment assistant.'**
+  String get paymentAssistantDescription;
+
+  /// No description provided for @accessButton.
+  ///
+  /// In en, this message translates to:
+  /// **'Access'**
+  String get accessButton;
 }
 
 class _AppLocalizationsDelegate

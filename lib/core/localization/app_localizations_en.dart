@@ -59,4 +59,14 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get amountAvailable => 'Amount available up to';
+
+  @override
+  String get paymentAssistantTitle => 'Plan your bills';
+
+  @override
+  String get paymentAssistantDescription =>
+      'Track, pay and schedule with the help of the payment assistant.';
+
+  @override
+  String get accessButton => 'Access';
 }

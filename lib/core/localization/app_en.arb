@@ -28,5 +28,8 @@
   },
   "beUltraviolet": "Be Ultraviolet",
   "loan": "Loan",
-  "amountAvailable": "Amount available up to"
+  "amountAvailable": "Amount available up to",
+  "paymentAssistantTitle": "Plan your bills",
+  "paymentAssistantDescription": "Track, pay and schedule with the help of the payment assistant.",
+  "accessButton": "Access"
 }

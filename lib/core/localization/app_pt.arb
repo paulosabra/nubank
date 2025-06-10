@@ -28,5 +28,8 @@
   },
   "beUltraviolet": "Seja Ultravioleta",
   "loan": "Empréstimo",
-  "amountAvailable": "Valor disponível de até"
+  "amountAvailable": "Valor disponível de até",
+  "paymentAssistantTitle": "Planeje suas contas",
+  "paymentAssistantDescription": "Acompanhe, pague e programe com a ajuda do assistente de pagamentos.",
+  "accessButton": "Accessar"
 }
