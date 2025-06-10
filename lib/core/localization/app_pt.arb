@@ -26,5 +26,7 @@
       }
     }
   },
-  "beUltraviolet": "Seja Ultravioleta"
+  "beUltraviolet": "Seja Ultravioleta",
+  "loan": "Empréstimo",
+  "amountAvailable": "Valor disponível de até"
 }

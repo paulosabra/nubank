@@ -128,6 +128,22 @@ class HomePage extends StatelessWidget {
                   ),
                 ],
               ),
+              NuCard(
+                data: context.l10n.loan,
+                children: [
+                  Text(
+                    context.l10n.amountAvailable,
+                    style: const TextStyle(
+                      fontSize: 16,
+                      fontWeight: FontWeight.w400,
+                    ),
+                  ),
+                  const Text(
+                    r'R$ 0,00',
+                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.w600),
+                  ),
+                ],
+              ),
             ],
           ),
         ),

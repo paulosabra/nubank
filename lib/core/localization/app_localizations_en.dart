@@ -53,4 +53,10 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get beUltraviolet => 'Be Ultraviolet';
+
+  @override
+  String get loan => 'Loan';
+
+  @override
+  String get amountAvailable => 'Amount available up to';
 }

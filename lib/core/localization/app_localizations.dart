@@ -181,6 +181,18 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Be Ultraviolet'**
   String get beUltraviolet;
+
+  /// No description provided for @loan.
+  ///
+  /// In en, this message translates to:
+  /// **'Loan'**
+  String get loan;
+
+  /// No description provided for @amountAvailable.
+  ///
+  /// In en, this message translates to:
+  /// **'Amount available up to'**
+  String get amountAvailable;
 }
 
 class _AppLocalizationsDelegate
