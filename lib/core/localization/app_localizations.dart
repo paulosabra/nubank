@@ -109,6 +109,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Hi, {username}'**
   String greeting(String username);
+
+  /// No description provided for @accountBalance.
+  ///
+  /// In en, this message translates to:
+  /// **'Account balance'**
+  String get accountBalance;
 }
 
 class _AppLocalizationsDelegate

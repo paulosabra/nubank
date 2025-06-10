@@ -15,4 +15,7 @@ class AppLocalizationsPt extends AppLocalizations {
   String greeting(String username) {
     return 'Olá, $username';
   }
+
+  @override
+  String get accountBalance => 'Saldo em conta';
 }

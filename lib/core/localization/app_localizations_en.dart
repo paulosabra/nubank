@@ -15,4 +15,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String greeting(String username) {
     return 'Hi, $username';
   }
+
+  @override
+  String get accountBalance => 'Account balance';
 }
