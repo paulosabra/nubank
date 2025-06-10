@@ -69,4 +69,49 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get accessButton => 'Accessar';
+
+  @override
+  String get discoverMore => 'Descubra mais';
+
+  @override
+  String get ultravioletTitle => 'Nubank Ultravioleta';
+
+  @override
+  String get ultravioletDescription =>
+      'Soluções pensadas para você. Como deveria ser.';
+
+  @override
+  String get nubankPlusTitle => 'Nubank+';
+
+  @override
+  String get nubankPlusDescription =>
+      'A evolução da sua experiência Nubank com ainda mais vantagens para o seu dia a dia.';
+
+  @override
+  String get nubankCryptoTitle => 'Nubank Crypto';
+
+  @override
+  String get nubankCryptoDescription =>
+      'Compre, venda e transfira criptoativos sem sair do app.';
+
+  @override
+  String get nuPayTitle => 'NuPay';
+
+  @override
+  String get nuPayDescription =>
+      'Pague suas compras online com segurança direto pelo app do Nu.';
+
+  @override
+  String get nuCellTitle => 'NuCel';
+
+  @override
+  String get nuCellDescription =>
+      'Planos de celular simples pensados para você não ter surpresas.';
+
+  @override
+  String get termsUseTitle => 'Termos de uso';
+
+  @override
+  String get termsUseDescription =>
+      'Explicamos o que diz esse documento do Nubank.';
 }

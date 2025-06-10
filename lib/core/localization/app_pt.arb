@@ -31,5 +31,18 @@
   "amountAvailable": "Valor disponível de até",
   "paymentAssistantTitle": "Planeje suas contas",
   "paymentAssistantDescription": "Acompanhe, pague e programe com a ajuda do assistente de pagamentos.",
-  "accessButton": "Accessar"
+  "accessButton": "Accessar",
+  "discoverMore": "Descubra mais",
+  "ultravioletTitle": "Nubank Ultravioleta",
+  "ultravioletDescription": "Soluções pensadas para você. Como deveria ser.",
+  "nubankPlusTitle": "Nubank+",
+  "nubankPlusDescription": "A evolução da sua experiência Nubank com ainda mais vantagens para o seu dia a dia.",
+  "nubankCryptoTitle": "Nubank Crypto",
+  "nubankCryptoDescription": "Compre, venda e transfira criptoativos sem sair do app.",
+  "nuPayTitle": "NuPay",
+  "nuPayDescription": "Pague suas compras online com segurança direto pelo app do Nu.", 
+  "nuCellTitle": "NuCel",
+  "nuCellDescription": "Planos de celular simples pensados para você não ter surpresas.",
+  "termsUseTitle": "Termos de uso",
+  "termsUseDescription": "Explicamos o que diz esse documento do Nubank."
 }

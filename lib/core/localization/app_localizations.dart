@@ -211,6 +211,84 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Access'**
   String get accessButton;
+
+  /// No description provided for @discoverMore.
+  ///
+  /// In en, this message translates to:
+  /// **'Discover more'**
+  String get discoverMore;
+
+  /// No description provided for @ultravioletTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Nubank Ultraviolet'**
+  String get ultravioletTitle;
+
+  /// No description provided for @ultravioletDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Solutions designed for you. As it should be.'**
+  String get ultravioletDescription;
+
+  /// No description provided for @nubankPlusTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Nubank+'**
+  String get nubankPlusTitle;
+
+  /// No description provided for @nubankPlusDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'The evolution of your Nubank experience with even more advantages for your daily life.'**
+  String get nubankPlusDescription;
+
+  /// No description provided for @nubankCryptoTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Nubank Crypto'**
+  String get nubankCryptoTitle;
+
+  /// No description provided for @nubankCryptoDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Buy, sell and transfer crypto assets without leaving the app.'**
+  String get nubankCryptoDescription;
+
+  /// No description provided for @nuPayTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'NuPay'**
+  String get nuPayTitle;
+
+  /// No description provided for @nuPayDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Pay for your online purchases securely directly through the Nu app.'**
+  String get nuPayDescription;
+
+  /// No description provided for @nuCellTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'NuCell'**
+  String get nuCellTitle;
+
+  /// No description provided for @nuCellDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Simple cell phone plans designed to give you no surprises.'**
+  String get nuCellDescription;
+
+  /// No description provided for @termsUseTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Terms of use'**
+  String get termsUseTitle;
+
+  /// No description provided for @termsUseDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'We explain what this Nubank document says.'**
+  String get termsUseDescription;
 }
 
 class _AppLocalizationsDelegate

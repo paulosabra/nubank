@@ -6,6 +6,7 @@ import 'package:nubank/core/assets/icons.dart';
 import 'package:nubank/core/themes/colors.dart';
 import 'package:nubank/core/utils/extensions/context.dart';
 import 'package:nubank/pages/home/widgets/account_menu_item.dart';
+import 'package:nubank/pages/home/widgets/know_card.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -160,6 +161,58 @@ class HomePage extends StatelessWidget {
                     onPressed: () {},
                   ),
                 ],
+              ),
+              Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  const Divider(color: AppColors.neutralLight, height: 2),
+                  Padding(
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: 24,
+                      vertical: 32,
+                    ),
+                    child: Text(
+                      context.l10n.discoverMore,
+                      style: const TextStyle(
+                        fontSize: 20,
+                        fontWeight: FontWeight.w600,
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+              SizedBox(
+                height: 200,
+                child: ListView(
+                  scrollDirection: Axis.horizontal,
+                  padding: const EdgeInsets.symmetric(horizontal: 20),
+                  children: [
+                    KnowCard(
+                      title: context.l10n.ultravioletTitle,
+                      description: context.l10n.ultravioletDescription,
+                    ),
+                    KnowCard(
+                      title: context.l10n.nubankPlusTitle,
+                      description: context.l10n.nubankPlusDescription,
+                    ),
+                    KnowCard(
+                      title: context.l10n.nubankCryptoTitle,
+                      description: context.l10n.nubankCryptoDescription,
+                    ),
+                    KnowCard(
+                      title: context.l10n.nuPayTitle,
+                      description: context.l10n.nuPayDescription,
+                    ),
+                    KnowCard(
+                      title: context.l10n.nuCellTitle,
+                      description: context.l10n.nuCellDescription,
+                    ),
+                    KnowCard(
+                      title: context.l10n.termsUseTitle,
+                      description: context.l10n.termsUseDescription,
+                    ),
+                  ],
+                ),
               ),
             ],
           ),
