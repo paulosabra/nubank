@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:nubank/components/app_bar.dart';
+import 'package:nubank/components/button.dart';
 import 'package:nubank/components/card.dart';
 import 'package:nubank/core/assets/icons.dart';
 import 'package:nubank/core/utils/extensions/context.dart';
@@ -68,6 +69,23 @@ class HomePage extends StatelessWidget {
                     ),
                     const SizedBox(width: 24),
                   ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.symmetric(
+                  horizontal: 24,
+                  vertical: 32,
+                ),
+                child: NuButton.secondary(
+                  text: context.l10n.myCards,
+                  icon: AppIcon.cardIcon,
+                  onPressed: () {
+                    ScaffoldMessenger.of(context).showSnackBar(
+                      SnackBar(
+                        content: Text('${context.l10n.myCards} Button Pressed'),
+                      ),
+                    );
+                  },
                 ),
               ),
             ],

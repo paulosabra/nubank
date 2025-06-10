@@ -1,5 +1,6 @@
 abstract class AppIcon {
   static const barcodeIcon = 'assets/icons/barcode.svg';
+  static const cardIcon = 'assets/icons/card.svg';
   static const chevronRightIcon = 'assets/icons/chevron-right.svg';
   static const eyeOffIcon = 'assets/icons/eye-off.svg';
   static const eyeOnIcon = 'assets/icons/eye-on.svg';

@@ -36,4 +36,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get invest => 'Investir';
+
+  @override
+  String get myCards => 'Meus cartões';
 }

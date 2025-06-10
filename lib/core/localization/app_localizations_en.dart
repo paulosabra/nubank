@@ -36,4 +36,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get invest => 'Invest';
+
+  @override
+  String get myCards => 'My cards';
 }
