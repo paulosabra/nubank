@@ -31,45 +31,39 @@ class HomePage extends StatelessWidget {
               SizedBox(
                 height: 110,
                 child: ListView(
+                  padding: const EdgeInsets.symmetric(horizontal: 20),
                   scrollDirection: Axis.horizontal,
                   children: [
-                    const SizedBox(width: 24),
                     AccountMenuItem(
                       title: context.l10n.pixArea,
                       icon: AppIcon.pixIcon,
                       onPressed: () {},
                     ),
-                    const SizedBox(width: 12),
                     AccountMenuItem(
                       title: context.l10n.pay,
                       icon: AppIcon.barcodeIcon,
                       onPressed: () {},
                     ),
-                    const SizedBox(width: 12),
                     AccountMenuItem(
                       title: context.l10n.transfer,
                       icon: AppIcon.moneyOutIcon,
                       onPressed: () {},
                     ),
-                    const SizedBox(width: 12),
                     AccountMenuItem(
                       title: context.l10n.deposit,
                       icon: AppIcon.moneyInIcon,
                       onPressed: () {},
                     ),
-                    const SizedBox(width: 12),
                     AccountMenuItem(
                       title: context.l10n.rechard,
                       icon: AppIcon.smartphoneIcon,
                       onPressed: () {},
                     ),
-                    const SizedBox(width: 12),
                     AccountMenuItem(
                       title: context.l10n.invest,
                       icon: AppIcon.safeCellIcon,
                       onPressed: () {},
                     ),
-                    const SizedBox(width: 24),
                   ],
                 ),
               ),
