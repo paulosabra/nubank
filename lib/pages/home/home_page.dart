@@ -214,6 +214,8 @@ class HomePage extends StatelessWidget {
                   ],
                 ),
               ),
+              const SizedBox(height: 32),
+              const RateButton(),
             ],
           ),
         ),

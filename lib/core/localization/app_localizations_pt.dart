@@ -117,4 +117,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get knowButton => 'Conhecer';
+
+  @override
+  String get rateButton => 'Avalie esta tela';
 }

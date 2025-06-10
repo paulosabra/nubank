@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:nubank/core/assets/icons.dart';
 import 'package:nubank/core/themes/colors.dart';
+import 'package:nubank/core/utils/extensions/context.dart';
 
 class NuButton extends StatelessWidget {
   const NuButton.primary({
@@ -72,6 +74,39 @@ class NuButton extends StatelessWidget {
           ),
         ],
       ),
+    );
+  }
+}
+
+class RateButton extends StatelessWidget {
+  const RateButton({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        TextButton(
+          onPressed: () {
+            ScaffoldMessenger.of(context).showSnackBar(
+              const SnackBar(content: Text('Rate Button Pressed')),
+            );
+          },
+          child: Row(
+            children: [
+              SvgPicture.asset(AppIcon.heartIcon, width: 24, height: 24),
+              const SizedBox(width: 16),
+              Text(
+                context.l10n.rateButton,
+                style: const TextStyle(
+                  fontSize: 14,
+                  fontWeight: FontWeight.w600,
+                ),
+              ),
+            ],
+          ),
+        ),
+      ],
     );
   }
 }

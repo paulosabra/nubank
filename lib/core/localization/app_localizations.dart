@@ -295,6 +295,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Know'**
   String get knowButton;
+
+  /// No description provided for @rateButton.
+  ///
+  /// In en, this message translates to:
+  /// **'Rate this screen'**
+  String get rateButton;
 }
 
 class _AppLocalizationsDelegate

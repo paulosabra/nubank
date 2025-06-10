@@ -5,6 +5,7 @@ abstract class AppIcon {
   static const eyeOffIcon = 'assets/icons/eye-off.svg';
   static const eyeOnIcon = 'assets/icons/eye-on.svg';
   static const gemIcon = 'assets/icons/gem.svg';
+  static const heartIcon = 'assets/icons/heart.svg';
   static const helpIcon = 'assets/icons/help.svg';
   static const moneyInIcon = 'assets/icons/money-in.svg';
   static const moneyOutIcon = 'assets/icons/money-out.svg';

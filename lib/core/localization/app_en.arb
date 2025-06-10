@@ -45,5 +45,6 @@
   "nuCellDescription": "Simple cell phone plans designed to give you no surprises.",
   "termsUseTitle": "Terms of use",
   "termsUseDescription": "We explain what this Nubank document says.",
-  "knowButton": "Know"
+  "knowButton": "Know",
+  "rateButton": "Rate this screen"
 }
