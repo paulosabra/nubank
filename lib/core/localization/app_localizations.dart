@@ -157,6 +157,30 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'My cards'**
   String get myCards;
+
+  /// No description provided for @creditCard.
+  ///
+  /// In en, this message translates to:
+  /// **'Credit card'**
+  String get creditCard;
+
+  /// No description provided for @currentInvoice.
+  ///
+  /// In en, this message translates to:
+  /// **'Current invoice'**
+  String get currentInvoice;
+
+  /// No description provided for @availableLimit.
+  ///
+  /// In en, this message translates to:
+  /// **'Available limit of {value}'**
+  String availableLimit(String value);
+
+  /// No description provided for @beUltraviolet.
+  ///
+  /// In en, this message translates to:
+  /// **'Be Ultraviolet'**
+  String get beUltraviolet;
 }
 
 class _AppLocalizationsDelegate

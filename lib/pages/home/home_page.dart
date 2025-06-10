@@ -3,6 +3,7 @@ import 'package:nubank/components/app_bar.dart';
 import 'package:nubank/components/button.dart';
 import 'package:nubank/components/card.dart';
 import 'package:nubank/core/assets/icons.dart';
+import 'package:nubank/core/themes/colors.dart';
 import 'package:nubank/core/utils/extensions/context.dart';
 import 'package:nubank/pages/home/widgets/account_menu_item.dart';
 
@@ -87,6 +88,45 @@ class HomePage extends StatelessWidget {
                     );
                   },
                 ),
+              ),
+              NuCard(
+                data: context.l10n.creditCard,
+                children: [
+                  Text(
+                    context.l10n.currentInvoice,
+                    style: const TextStyle(
+                      fontSize: 16,
+                      fontWeight: FontWeight.w400,
+                    ),
+                  ),
+                  const Text(
+                    r'R$ 0,00',
+                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.w600),
+                  ),
+                  const SizedBox(height: 16),
+                  Text(
+                    context.l10n.availableLimit(r'R$ 0,00'),
+                    style: const TextStyle(
+                      color: AppColors.neutralDark,
+                      fontSize: 14,
+                      fontWeight: FontWeight.w300,
+                    ),
+                  ),
+                  const SizedBox(height: 16),
+                  NuButton.secondary(
+                    text: context.l10n.beUltraviolet,
+                    icon: AppIcon.gemIcon,
+                    onPressed: () {
+                      ScaffoldMessenger.of(context).showSnackBar(
+                        SnackBar(
+                          content: Text(
+                            '${context.l10n.beUltraviolet} Button Pressed',
+                          ),
+                        ),
+                      );
+                    },
+                  ),
+                ],
               ),
             ],
           ),

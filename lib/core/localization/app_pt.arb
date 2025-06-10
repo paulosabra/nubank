@@ -15,5 +15,16 @@
   "deposit": "Depositar",
   "rechard": "Recarga",
   "invest": "Investir",
-  "myCards": "Meus cartões"
+  "myCards": "Meus cartões",
+  "creditCard": "Cartão de crédito",
+  "currentInvoice": "Fatura atual",
+  "availableLimit": "Limite disponível de {value}",
+  "@availableLimit": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "beUltraviolet": "Seja Ultravioleta"
 }

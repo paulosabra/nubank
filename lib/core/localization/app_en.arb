@@ -15,5 +15,16 @@
   "deposit": "Deposit",
   "rechard": "Recharge",
   "invest": "Invest",
-  "myCards": "My cards"
+  "myCards": "My cards",
+  "creditCard": "Credit card",
+  "currentInvoice": "Current invoice",
+  "availableLimit": "Available limit of {value}",
+  "@availableLimit": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "beUltraviolet": "Be Ultraviolet"
 }

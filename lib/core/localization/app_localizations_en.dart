@@ -39,4 +39,18 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get myCards => 'My cards';
+
+  @override
+  String get creditCard => 'Credit card';
+
+  @override
+  String get currentInvoice => 'Current invoice';
+
+  @override
+  String availableLimit(String value) {
+    return 'Available limit of $value';
+  }
+
+  @override
+  String get beUltraviolet => 'Be Ultraviolet';
 }
